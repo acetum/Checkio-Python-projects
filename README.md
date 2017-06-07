@@ -8,3 +8,9 @@ There are much easier and more elegant ways of doing what I did, from the other 
 2. Median
 
 This was a lot simpler. The idea is to find the median in a list of numbers. 
+
+3. DaysBetween
+
+So this function calculates the number of days between two dates. I first tried to solve it by actually trying to count the number of days myself. First by converting dates to a number of days and substracting the values, then by substracting the two dates and converting to days. After searching a bit, I came across the datetime library which made solving this problem a lot easier. The only difficulty I had was figuring out how to convert the data I was given (two tuples) into a usable datetime object.
+
+
