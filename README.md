@@ -16,3 +16,8 @@ So this function calculates the number of days between two dates. I first tried 
 4. NumberBase
 
 I really felt stupid after seeing the other answers to this problem. The object is to build a function that accepts a number as a string and the radix of the numerical system use and output the integer, while refusing any number that doesn't fit with that numerical system. I finally came up with this solution, only to find that Python has a built-in function that does this: it's called int(). I've been using it to convert floating point numbers, but hadn't realized I could also input a base other than 10. Live and learn!
+
+4. Stressful.py
+
+This is a solution for the problem at https://py.checkio.org/mission/stressful-subject/
+It as the second time I read up on regex and it's (very) slowly starting to click. This was actually a fun problem. It also taught me to be flexible: I was trying to solve a conditional using regex, when a simple built-in function (.upper()) could do the trick.
